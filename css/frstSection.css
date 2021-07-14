@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+/* font-family: 'Bona Nova', serif; */
+/* google font for company name  */
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400&display=swap');
+/* font-family: 'Mukta', sans-serif; */
+/* google font for the nav-items  */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+/* font-family: 'Alegreya', serif; */
+/* google font for bold heading  */
+*{
+    padding: 0;
+    margin: 0;
+}/* setting the default margin and padding to 0 */
+.diagonal-box{
+    background-image: linear-gradient(to right, hsl(302, 100%, 51%),  #BC40CD,#1e5fd6  , #5173a5);
+    transform: skewY(-11deg);
+    margin-top: -10vw;
+    height: 45vw;
+}/* background vertical color design  */
+
+.content-box{
+    /* height: 30vw; */
+    /* border: 1px solid black; */
+    transform: skewY(11deg);
+    position: relative;
+    top: 10vw;
+}/* data box for the first section  */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250,250,250, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}/* navbar toggler icon color  */
+.navbar-brand{
+    font-family: 'Bona Nova', serif;
+    color: white;
+    font-size: 2.5vw !important;
+    margin-right: 5.5vw !important;
+}/* brand name styles  */
+.navbar-brand:hover{
+    color: lightblue
+}/* onhover style brandname */
+.nav-itm{
+    color: white;
+    font-family: 'Mukta';
+    font-size: 1.1vw;
+    margin-left: 3vw;
+    letter-spacing: .1vw;
+    margin-top: .5vw;
+}/* navitems default styles  */
+.nav-itm:hover{
+    font-weight: bold;
+    color: white;
+}/* navItem style for the hover effect */
+.signIn{
+    font-size: 1.2vw !important;
+    background-color: rgba(255, 255, 255,0.3);
+    margin-left: 16vw !important;
+    border-radius: 500px;
+    font-weight: bold;
+}/* signin button style  */
+.signIn.tryNow:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}/* signIn and tryNow buttons hover effect */
+.tryNow{
+    width: fit-content;
+    background-color: rgba(0, 0, 0,0.2);
+    letter-spacing: .2vw;
+    font-size: 1.4vw !important;
+}/* try now button styles  */
+.businessUpText{
+    font-family: 'Alegreya', serif;
+    font-size: 4.5vw;   
+}/* style for first heading business text  */
+.sizeOfAt{
+    font-size: 2vw;
+}/* style for @ sign in email input  */
+.emailInpt{
+    border: none;
+    outline: none;
+    background: none !important;
+    width: 20vw;
+}/* email input style  */
+.emailInpt::placeholder{
+    color: white !important;
+    font-size:1vw ;
+    letter-spacing: .2vw;
+    font-weight: bold;
+}/* color of placeholder text in email input  */
+.mailBox{
+    width: fit-content;
+    padding: .3vw .7vw .5vw 1vw;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom right, #c237c7,#F5E8F7);
+}/* mail input container style */
+.mailBtn{
+    outline: none;
+    border: none;
+    background-color: rgb(61, 47, 213);
+    color: white;
+    padding: .8vw 1.3vw;
+    border-radius: 10px;
+    font-size: 1vw;
+    font-weight: bold;
+    letter-spacing: .1vw;
+}/* mail button style  */
+.mailBtn:hover{
+    background-color: rgb(3, 210, 234);
+}
+.mukta{
+    font-family: 'Mukta', sans-serif !important; 
+}/* class for Mukta font family  */
+.plansTxt{
+    font-size: 1.7vw;
+    color: rgb(189, 189, 189);
+}/* our plans text style  */
+.employeeBox{
+    border-radius: 12px 0 0 12px;
+    background-color: rgba(255, 255, 255,0.3);
+    height: 20vw;
+    overflow: initial;
+}/* employee box style  */
+.employTxt{
+    font-size: 1.4vw;
+    width: fit-content;
+    display: inline-block;
+}/* employee text style   */
+.inboxBox{
+    font-size: 1vw;
+}/* inbox box style  */
+.employeeGirlImg{
+    width: 10%;
+    border-radius: 50%;
+}
+/* employee circle image style  */
+.employeeType{
+    font-size: .8vw;
+    color: rgb(225, 225, 225);
+    margin-bottom: 7vw;
+}/* first girl employe image full time style  */
+.leftSpace{
+    padding-left: 9vw;
+    /* display: none; */
+    position :absolute;
+    /* left: -1vw; */
+    width: 97%;
+    height: max-content;
+    z-index: 1;
+}/* left space for the hover employee details card  */
+.employeeHoverCard{
+    position: relative;
+    top: -11vw;
+    border-radius: 10px 0 0 10px;
+    z-index: 1;
+    /* display: none; */
+}/* employee hover card styles  */
+.jobDetailsTxt{
+    font-size: 1.4vw;
+    font-weight: bold;
+}/* employee card title text   */
+.width30{
+    width: 30%;
+}/* card key width  */
+.width69{
+    width: 69%;
+    background-color: rgb(189, 238, 255);
+    font-size: 1vw;
+    color: rgb(3, 173, 199);
+}/* blue box inside hover card style  */
+/* .girlEmpBox:hover + .leftSpace{
+    display: block !important ;
+}
+.girlEmpBox:hover{
+    cursor: pointer;
+}
+.leftSpace:hover{
+    display: block;
+}these hover used to display employee information card  */
+.blueCrossBox{
+    /* position: relative; */
+    /* top: -13vw; */
+    margin-top: 5.5vw;
+    border-radius: 20px;
+    margin-left: -4vw;
+}/* medical plans box style  */
+.medicalTxt{
+    font-size: .6vw;
+    color: rgb(189, 187, 187);
+}/* medical plans text style  */
+.blueCrossTxt{
+    font-size: .9vw;
+    line-height: .1 !important;
+}/* blue cross ppo text style  */
+.greenDot{
+    margin-top: -1vw;
+    color: rgb(60, 230, 60);
+    float: right;
+    font-size: .9vw;
+}/* green dot in medical plan card  */
+.dollar{
+    color: rgb(60, 230, 60);
+    font-size: 1.5vw;
+}/* dollar 664 style  */
+.men1{
+    width: 33%;
+    border-radius: 50%;
+}/* man employee image style  */
+.menBox{
+    width: 18vw;
+    border-radius: 12px;
+    background-color: white;
+    position: absolute;
+    z-index: 10 !important;
+}/* card holding male employee image and description  */
+.menName{
+    font-size: .8vw;
+    /* margin-top: -1vw !important; */
+}/* name of the employee  */
+.uiDesigner{
+    font-size: .7vw;
+    font-weight: normal;
+}/* uiDesigner text style  */
+.designerRate{
+    font-size: .7vw;
+}/* designer hourly rate style  */
+.payAmount{
+    font-size: 1.5vw;
+    color: rgb(82, 82, 82);
+}/* designer pay amount style  */
+.paid{
+    border-radius: 5px;
+    background-color: rgb(174, 230, 174);
+    font-size: 1vw;
+    color: rgb(104, 103, 103);
+}/* paid text style  */
+.squareCheck{
+    color: rgb(9, 235, 43);
+    font-size: 1vw;
+    padding-top: 3px;
+}/* check square with color green  */
+.demo{
+    display: flex;
+    justify-content: center;
+}/* check horizontal list box style  */
+.checkPoint{
+    background-color: rgb(214, 241, 250);
+    border-radius: 50%;
+    font-size: 2vw;
+}/* check list chek icon style   */
+.chekPointTxt{
+    color: rgb(74, 119, 255);
+    font-size: 2.5vw;
+    font-weight: normal;
+}

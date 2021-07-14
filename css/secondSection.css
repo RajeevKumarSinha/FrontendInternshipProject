@@ -1,0 +1,108 @@
+.section2{
+    margin-top: 33vw;
+    background-color: rgb(225, 247, 255);
+}/* default style for section 2  */
+.hrImg{
+    width: 6%;
+    border-radius: 50%;
+    display: inline;
+}/* hr image style  */
+.Hr{
+    color: rgb(81, 179, 211);
+    font-size: 4vw;
+    font-family: 'Bona Nova';
+    position: relative;
+    top: 1vw;
+}/* hr text style  */
+.manageTxt{
+    font-size: 2vw;
+    color: rgb(141, 204, 224);
+    font-family: sans-serif;
+}/* manage your people style  */
+.candidateBox{
+    background-color: white;
+    border-radius: 15px;
+}/* add candidate box styles  */
+.addTxt{
+    font-size: 1.8vw;
+    font-weight: bold;
+}/* add candidate text style  */
+.ruleColor1{
+    background-color: rgb(74, 167, 198) !important;
+    padding: 5px;
+    border-radius: 500px;
+    display: inline-block;
+}/*blue colored horizontal rule style  */
+.ruleColor2{
+    background-color: rgb(213, 213, 213) !important;
+}/* second color horixontal rule  */
+.w-23{
+    width: 21%;
+}
+.w-20{
+    width:14%
+}
+.reviewTxt{
+    font-size: 1.7vw;
+    font-weight: bold;
+}
+/* review your letter dtyle  */
+.fold{
+    border: 2px solid lightgrey;
+}/* paper fold style  */
+.deartxt{
+    font-size: 1.5vw;
+}
+.w-69{
+    width: 59%;
+}
+.w-29{
+    width: 39%;
+}
+.w-98{
+    width: 98%;
+}
+.ruleColor3{
+    background-color: rgb(227, 224, 224) !important;
+}
+.pos{
+    font-size: .9vw !important;
+    color: rgb(210, 210, 210) !important;
+}
+.manag{
+    font-size: 1vw;
+}
+.sndOfr{
+    font-weight: bold;
+    font-size: .9vw;
+}
+.secondEmpCard{
+    top: -2vw;
+    background-color: #fffdf7 !important;
+    border-radius: 15px;
+    width: 90%;
+    margin-left:8% ;
+}
+.empDir{
+    font-size: 1.6vw;
+}
+.w-49{
+    width: 47%;
+}
+.dirCard{
+    border-radius: 15px;
+}
+.imgEmpCard{
+    width: 65%;
+    border-radius: 50%;
+    /* margin-left: 17.5%; */
+}
+.empNameTxt{
+    font-size: 1.5vw;
+}
+.role{
+    color: lightgray;
+}
+.littlecard{
+    top: .2vw;
+}
